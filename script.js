@@ -1,6 +1,6 @@
 //your JS code here. If required.
-let w = document.documentElement.clientWidth
-let h = document.documentElement.clientHeight
+let x = document.documentElement.clientWidth
+let y = document.documentElement.clientHeight
 function getResize(){
-	document.getElementById("sizeInfo").innerHTML = "<h1>Width: "+w+" and"+" Height: "+h
+	document.getElementById("sizeInfo").innerHTML = "<h1>Width: "+x+" and"+" Height: "+y+"</h1>"
 }
